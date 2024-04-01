@@ -1,0 +1,28 @@
+@media screen and (max-height: 767px) {
+#errore {display:block;position:absolute;width:360px;height:80px;top:50%;left:50%;margin-left: -180px;margin-top: -40px;z-index:2;background-color:#1f78b4;color:white;font-size:1.0em;padding:12px;opacity:1;border-radius:5px 5px 5px 5px;z-index:100;text-align:center;}
+#map {display:none;}
+#barraInput {display:none;}
+}
+@media screen and (max-width: 1023px) {
+#errore {display:block;position:absolute;width:360px;height:80px;top:50%;left:50%;margin-left: -180px;margin-top: -40px;z-index:2;background-color:#1f78b4;color:white;font-size:1.0em;padding:12px;opacity:1;border-radius:5px 5px 5px 5px;z-index:100;text-align:center;}
+#map {display:none;}
+#barraInput {display:none;}
+}
+@media screen and (min-width: 1024px) {
+#errore {display:none;}
+#map {display:block;}
+#barraInput {position:fixed;bottom:0px;left:0px;z-index:1;padding-left:4px;padding-right:4px;padding-top:2px;padding-bottom:2px;height:22px;background-color:#1f78b4;color:white;border-radius:0px 5px 0px 0px;opacity:0;}
+#barraInput:hover{opacity:1;}
+#barraInput button{color:darkblue;}
+#schermo {position:absolute;left:0px;top:0px;width:100%;height:100%;background-color:lightgray;opacity:0.55;z-index:99;}
+#creditsmappe {position:absolute;width:800px;height:600px;top:50%;left:50%;margin-left: -400px;margin-top: -300px;z-index:2;background-color:#1f78b4;color:white;font-size:1.0em;padding:12px;opacity:1;border-radius:5px 5px 5px 5px;z-index:100;}
+#creditsmappe p{text-align:center;font-weight:bold;}
+#creditsmappe a:link{color:lightyellow;text-decoration:none;font-weight:bold;}
+#creditsmappe a:hover{color:lightyellow;text-decoration:underline;font-weight:bold;}
+#creditsmappe a:visited{color:lightyellow;text-decoration:none;font-weight:bold;}
+#lunghezzaTraccia {position:fixed;line-height:24px;bottom:54px;left:4px;width:255px;padding-left:6px;background-color:black;color:white;opacity:1;border-radius:5px 0px 0px 0px;}
+#dislivelloPositivo {position:fixed;line-height:24px;bottom:54px;left:259px;width:196px;background-color:black;color:white;opacity:1;}
+#quoteInizialeFinale {position:fixed;line-height:24px;bottom:30px;left:4px;width:389px;padding-left:6px;background-color:black;color:white;opacity:1;border-radius:0px 0px 0px 5px;}
+#quoteMinMax {position:fixed;line-height:24px;bottom:30px;left:393px;width:366px;background-color:black;color:white;opacity:1;border-radius:0px 0px 5px 0px;}
+#tempoIntercorso {position:fixed;line-height:24px;bottom:54px;left:455px;width:304px;background-color:black;color:white;opacity:1;border-radius:0px 5px 0px 0px;}
+}
