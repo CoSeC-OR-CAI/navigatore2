@@ -132,7 +132,7 @@ var lyr_DBGT2022110000_9 = new ol.layer.Tile({
                               url: "http://webgis.regione.sardegna.it/geoserverraster/ows",
     attributions: ' ',
                               params: {
-                                "LAYERS": "raster:Mosaico_DBGT_10K_22_V02",
+                                "LAYERS": "raster:Mosaico_DBGT_10K_22_V04",
                                 "TILED": "true",
                                 "VERSION": "1.3.0"},
                             })),
