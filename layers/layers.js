@@ -9,7 +9,7 @@ var lyr_VecchieIGMserie25obsolete_0 = new ol.layer.Tile({
                                 "TILED": "true",
                                 "VERSION": "1.3.0"},
                             })),
-                            title: "Vecchie IGM serie 25",
+                            title: "Vecchie IGM serie 25 (obsolete)",
                             opacity: 0.700000,
                             
                             
@@ -255,7 +255,7 @@ var group_Sfondo = new ol.layer.Group({
                                 layers: [lyr_VecchieIGMserie25obsolete_0,lyr_OrtofotoIGM19541955_1,lyr_OrtofotoAGEA2010_2,lyr_OrtofotoAGEA2019_3,lyr_GoogleSatellite_4,lyr_OpenStreetMap_5,],
                                 title: "Sfondo cartografico"});
 
-lyr_VecchieIGMserie25obsolete_0.setVisible(true);lyr_OrtofotoIGM19541955_1.setVisible(false);lyr_OrtofotoAGEA2010_2.setVisible(false);lyr_OrtofotoAGEA2019_3.setVisible(false);lyr_GoogleSatellite_4.setVisible(false);lyr_OpenStreetMap_5.setVisible(false);lyr_Ortofoto1968_6.setVisible(false);lyr_Ortofoto19771978_7.setVisible(false);lyr_Ortofoto1997_8.setVisible(false);lyr_DBGT2022110000_9.setVisible(false);lyr_Mappali_10.setVisible(false);lyr_Fabbricati_11.setVisible(false);lyr_Strade_12.setVisible(false);lyr_Fogli_13.setVisible(false);lyr_Acque_14.setVisible(false);lyr_Vestizioni_15.setVisible(false);lyr_Limitiamministrativi_16.setVisible(true);
+lyr_VecchieIGMserie25obsolete_0.setVisible(false);lyr_OrtofotoIGM19541955_1.setVisible(false);lyr_OrtofotoAGEA2010_2.setVisible(false);lyr_OrtofotoAGEA2019_3.setVisible(false);lyr_GoogleSatellite_4.setVisible(true);lyr_OpenStreetMap_5.setVisible(false);lyr_Ortofoto1968_6.setVisible(false);lyr_Ortofoto19771978_7.setVisible(false);lyr_Ortofoto1997_8.setVisible(false);lyr_DBGT2022110000_9.setVisible(false);lyr_Mappali_10.setVisible(false);lyr_Fabbricati_11.setVisible(false);lyr_Strade_12.setVisible(false);lyr_Fogli_13.setVisible(false);lyr_Acque_14.setVisible(false);lyr_Vestizioni_15.setVisible(false);lyr_Limitiamministrativi_16.setVisible(true);
 var layersList = [group_Sfondo,group_GeoportaleRegioneAutonomadellaSardegna,group_CatastoAgenziadelleEntrate,lyr_Limitiamministrativi_16];
 lyr_Limitiamministrativi_16.set('fieldAliases', {'Comune': 'Comune', });
 lyr_Limitiamministrativi_16.set('fieldImages', {'Comune': 'TextEdit', });
