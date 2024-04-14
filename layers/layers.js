@@ -10,7 +10,7 @@ var lyr_VecchieIGMserie25obsolete_0 = new ol.layer.Tile({
                                 "VERSION": "1.3.0"},
                             })),
                             title: "Vecchie IGM serie 25 (obsolete)",
-                            opacity: 0.700000,
+                            opacity: 1.000000,
                             
                             
                           });
