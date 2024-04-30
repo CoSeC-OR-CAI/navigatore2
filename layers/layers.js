@@ -2,7 +2,7 @@ var wms_layers = [];
 
 var lyr_VecchieIGMserie25obsolete_0 = new ol.layer.Tile({
                             source: new ol.source.TileWMS(({
-                              url: "http://wms.pcn.minambiente.it/ogc?map%3D/ms_ogc/WMS_v1.3/raster/IGM_25000.map",
+                              url: "http://wms.pcn.minambiente.it/ogc?map=/ms_ogc/WMS_v1.3/raster/IGM_25000.map",
     attributions: ' ',
                               params: {
                                 "LAYERS": "CB.IGM25000.32",
